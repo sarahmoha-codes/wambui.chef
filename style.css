@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:rgba(15, 61,46, 0.50);
+    height: 40px;
+    backdrop-filter:blur(5px);
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    
+}
+header .logo{
+    height: 60px;
+}
+
+nav a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+     backdrop-filter:blur(10px);
+
+}
+.hero{
+    background: url("images/1001214937.png") no-repeat center center/cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+
+}
+.hero-overlay{
+    background: rgba(0, 0,0, 0.4);
+    padding:60px 40px 40px 40px;
+    border-radius: 10px;
+
+
+   
+}
+ .hero img{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+ }
+
+.btn{
+    background:gold;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.about, .services, .contact{
+    padding: 40px;
+    text-align: center;
+    background: rgba(163, 237, 213, 0.5);
+    backdrop-filter:blur(10px);
+    padding:60px 40px 40px 40px;
+    z-index: 1000;
+    margin-bottom: 0;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+footer{
+    background: #0f3d2e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.hero a{
+    background:gold;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+
+.contacts{
+background: gainsboro;
+margin-top: 0;
+
+}
+h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: rgba(192, 207, 29, 0.851);
+}
+p{
+    font-size: 30px;
+}
+h5{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(174, 127, 69);
+}
+h3{
+     font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(91, 39, 180);
+}
+
+p2{
+     font-size: 25px;
+    margin-bottom: 10px;
+    color: rgba(200, 190, 188, 0.998);
+}
+h6{
+     font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(75, 75, 31);
+
+}
